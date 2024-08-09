@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .large-images, .small-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .large-images .image-item, .small-images .image-item {
+            margin: 10px;
+            text-align: center;
+        }
+        .large-images img {
+            width: 300px;
+            height: 200px;
+        }
+        .small-images img {
+            width: 100px;
+            height: 75px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Item Page</h1>
+    <div class="large-images">
+        <!-- Repeat this block for 5 large images -->
+        <div class="image-item">
+            <img src="large1.jpg" alt="Large Image 1">
+            <p>Description for Large Image 1</p>
+        </div>
+        <div class="image-item">
+            <img src="large2.jpg" alt="Large Image 2">
+            <p>Description for Large Image 2</p>
+        </div>
+        <div class="image-item">
+            <img src="large3.jpg" alt="Large Image 3">
+            <p>Description for Large Image 3</p>
+        </div>
+        <!-- Add more large images here -->
+    </div>
+    <div class="small-images">
+        <!-- Repeat this block for 10 small images -->
+        <div class="image-item">
+            <img src="small1.jpg" alt="Small Image 1">
+            <p>Description for Small Image 1</p>
+        </div>
+        <div class="image-item">
+            <img src="small2.jpg" alt="Small Image 2">
+            <p>Description for Small Image 2</p>
+        </div>
+        <div class="image-item">
+            <img src="small3.jpg" alt="Small Image 3">
+            <p>Description for Small Image 3</p>
+        </div>
+        <!-- Add more small images here -->
+    </div>
+</body>
+</html>
